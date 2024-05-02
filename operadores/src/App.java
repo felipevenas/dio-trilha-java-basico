@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         
-        // Operadores de atribuição: | =
+        // Operador de atribuição: | =
         String nome = "nome";
         int idade = 19;
         double peso = 81.5;
@@ -14,6 +14,7 @@ public class App {
         int subtracao = 100 - 50;
         int modulo = 18 % 3; // Armazena o resto da divisão.
         double resultado = (10 * 5) + (50 / 5);
+
         
     }
 }
