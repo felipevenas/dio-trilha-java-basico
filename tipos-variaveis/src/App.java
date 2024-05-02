@@ -4,7 +4,7 @@ public class App {
         final int ANO_NASCIMENTO = 2005; // O termo 'final' indica que a variável seguinte não poderá ser alterada. Além disso, nomeamos a variável sempre em caixa alta nestes casos. 
         int idade;
         String nome = "Felipe";
-        double salario = 1400;
+        double salario = 1400; 
         long cep = 41650195;
         idade = 2024 - ANO_NASCIMENTO;
 
