@@ -1,7 +1,7 @@
 public class App {
     public static void main (String[] args) {
         
-        final int ANO_NASCIMENTO = 2005;
+        final int ANO_NASCIMENTO = 2005; // O termo 'final' indica que a variável seguinte não poderá ser alterada. Além disso, nomeamos a variável sempre em caixa alta nestes casos. 
         int idade;
         String nome = "Felipe";
         double salario = 1400;
