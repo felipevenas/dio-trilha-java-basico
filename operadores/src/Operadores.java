@@ -35,7 +35,7 @@ public class Operadores {
          // Operadores relacionais: | (==) Diferentes = (!=) (>) (>=) (<) (<=)  
         int num1 = 5;
         int num2 = 15;
-
+        
         boolean simNao = num1 == num2;
             System.out.println("Número 1 é igual ao número 2? " + simNao);
         simNao = num1 != num2;
@@ -50,6 +50,28 @@ public class Operadores {
             System.out.println("Nossa condição é falsa.");    
         }
 
+        String nomeUm = "Felipe";
+        String nomeDois = new String("Carlos"); // Criando um novo objetivo (new).
+            System.out.println(nomeUm.equals(nomeDois)); // 'Equals' é utilizado para comparar objetivos diferentes.
+
+        // Operadores lógicos: | E = (&&) Ou = (||)
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        // Exemplo &&
+        if (condicao1 && condicao2){
+            System.out.println("Ambas condições são verdadeiras.");
+        } else {
+            System.out.println("Ambas condições são distintas.");
+        }
+
+        // Exemplo ||
+        if (condicao1 || condicao2){
+            System.out.println("Uma das condições são verdadeiras.");
+        } else {
+            System.out.println("Uma das condições são distintas.");
+        }
         
+
     }
 }
