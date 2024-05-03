@@ -7,6 +7,7 @@ public class Operadores {
         double peso = 81.5;
         char sexo = 'M';
         boolean doadorOrgao = true;
+        
 
         // Operadores aritméticos: | + - * / %
         double soma = 10.4 + 12.6;
@@ -16,11 +17,13 @@ public class Operadores {
         
         // Operadores unários: | (+) (-) (++) (--) (!)
         int numero = 5; 
-            System.out.println(-- numero); 
-            System.out.println(++ numero);
-            System.out.println(- numero);
-            System.out.println(+ numero);
+        numero++; // Incrementa a variável com 1 número.
+            System.out.println(numero);
+        numero--; // Decrementa a variável com 1 número.
+            System.out.println(numero);
 
+        boolean trueOrFalse = true;
+            System.out.println(!trueOrFalse); // Nega uma variável do tipo boolean.
         
     }
 }
