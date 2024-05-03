@@ -31,5 +31,25 @@ public class Operadores {
 
         String resultadoOpTern = a==b ?"Verdadeiro" :"Falso";
             System.out.println(resultadoOpTern);
+   
+         // Operadores relacionais: | (==) Diferentes = (!=) (>) (>=) (<) (<=)  
+        int num1 = 5;
+        int num2 = 15;
+
+        boolean simNao = num1 == num2;
+            System.out.println("Número 1 é igual ao número 2? " + simNao);
+        simNao = num1 != num2;
+            System.out.println("Número 1 é diferente ao número 2? " + simNao);
+
+        simNao = num1 >= num2;
+            System.out.println("Número 1 é maior ou igual ao número 2? " + simNao);
+
+        if (num1 > num2) {
+            System.out.println("Nossa condição é verdadeira.");
+        } else {
+            System.out.println("Nossa condição é falsa.");    
+        }
+
+        
     }
 }
