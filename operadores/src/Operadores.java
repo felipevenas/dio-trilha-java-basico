@@ -8,7 +8,6 @@ public class Operadores {
         char sexo = 'M';
         boolean doadorOrgao = true;
         
-
         // Operadores aritméticos: | + - * / %
         double soma = 10.4 + 12.6;
         int subtracao = 100 - 50;
@@ -25,5 +24,12 @@ public class Operadores {
         boolean trueOrFalse = true;
             System.out.println(!trueOrFalse); // Nega uma variável do tipo boolean.
         
+        // Operadores ternários: | If = (?) Else = (:)
+        int a, b;
+        a = 8;
+        b = 4;
+
+        String resultadoOpTern = a==b ?"Verdadeiro" :"Falso";
+            System.out.println(resultadoOpTern);
     }
 }
