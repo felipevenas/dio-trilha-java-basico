@@ -4,7 +4,7 @@ public class SmartTV {
     int canal = 1;
     int volume = 25;
 
-    public void pesquisarCanal(int novoCanal){
+    public void pesquisarCanal(int novoCanal){ // pesquisarCanal é um MÉTODO DE CLASSE e int novoCanal é um parâmetro exclusivo desse método.
         canal = novoCanal;
     }
 
