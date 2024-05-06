@@ -23,15 +23,11 @@ public class SobreMim {
         System.out.println("Digite sua altura: ");
             altura = scanner.nextDouble();
         
-        System.out.println("\nNome completo: " + nome + " " + sobrenome + "." );
-        System.out.println("Idade: " + idade + "." );
-        System.out.println("Altura computada: " + altura + "cm." );
+        System.out.println("\nNome completo: " + nome + " " + sobrenome + ".");
+        System.out.println("Idade: " + idade + ".");
+        System.out.println("Altura computada: " + altura + "cm.");
 
-        scanner.close();
+        scanner.close(); // Encerrando o "scanner".
 
-        
-        
-        
-        
     }
 }
