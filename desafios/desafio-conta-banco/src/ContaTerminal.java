@@ -7,7 +7,7 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         String nome, sobrenome;
-        int idConta, idAgencia, idAgenciaDigito, feedback; 
+        int idConta, idAgencia, idAgenciaDigito; 
         double saldo = 3000;
 
         System.out.println("Por favor, digite seu primeiro nome: ");
@@ -42,7 +42,7 @@ public class ContaTerminal {
             System.out.println();
 
         System.out.println("Avalie o nosso aplicativo em uma escala de 1-5: ");
-            feedback = scanner.nextInt();
+            int avaliacaoApp = scanner.nextInt();
 
             System.out.println();
         
