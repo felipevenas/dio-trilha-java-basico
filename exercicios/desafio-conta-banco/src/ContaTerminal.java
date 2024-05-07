@@ -27,22 +27,26 @@ public class ContaTerminal {
         System.out.println("Dígito | " + idAgencia + "-?: ");
             idAgenciaDigito = scanner.nextInt();
 
-        System.out.println();
+            System.out.println();
             
         System.out.println("Olá " + nome + ", me chamo Eko, Assistente Virtual do uBank.");
         System.out.println("Gostaria de lhe dar boas-vindas para sua nova experiência financeira inovadora!");
 
-        System.out.println();
+            System.out.println();
 
         System.out.println("Esses são os seus dados da sua nova conta digital: ");
         System.out.println("Nome: " + nomeCompleto + ".");
         System.out.println("Conta: " + idConta + " | Agência: " + idAgencia + "-" + idAgenciaDigito + ".");
         System.out.println("Saldo disponível: R$" + saldo + ".");
 
-        System.out.println();
+            System.out.println();
 
         System.out.println("Avalie o nosso aplicativo em uma escala de 1-5: ");
             feedback = scanner.nextInt();
+
+            System.out.println();
+        
+        System.out.println("Obrigado pela avaliação!");
 
         scanner.close();
     }
