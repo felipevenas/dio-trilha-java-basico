@@ -7,7 +7,7 @@ public class SistemaEscola {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         String nomeAluno;
-        double nota1, nota2, media;
+        double nota1, nota2;
 
         System.out.println("Digite o nome do aluno: ");
             nomeAluno = scanner.nextLine();
@@ -17,7 +17,7 @@ public class SistemaEscola {
         System.out.println("Digite a segunda nota: ");
             nota2 = scanner.nextDouble();
 
-        media = (nota1 + nota2) / 2;
+        double media = (nota1 + nota2) / 2;
 
         if (media >= 6.0) {
             System.out.println("Média final: " + media + ".");
