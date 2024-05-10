@@ -12,6 +12,8 @@ public class SistemaMedida {
         System.out.println("P | M | G | GG | XG");
             sigla = scanner.nextLine();
 
+            scanner.close();
+
         System.out.println();
         
         switch(sigla) {
@@ -39,5 +41,5 @@ public class SistemaMedida {
                 System.out.println("Tamanho indefinido.");
             }
         }
-    }L
+    }
 }
