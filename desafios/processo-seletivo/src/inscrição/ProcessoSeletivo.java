@@ -37,15 +37,17 @@ public class ProcessoSeletivo {
             String candidato = candidatos[candidatoAtual];
             double salarioDesejado = salarioDesejado();
 
-            System.out.println("O candidato" + candidato + " solicitou esse valor de salário: " + salarioDesejado + ".");
+            System.out.println("O(a) candidato(a) " + candidato.toUpperCase() + " solicitou esse valor de salário: " + salarioDesejado + ".");
             if (salarioBase >= salarioDesejado) {
-                System.out.println("O candidato" + candidato + " foi selecionado para vaga." + ".");
+                System.out.println("O(a) candidato(a) " + candidato.toUpperCase() + " foi selecionado(a) para vaga.");
                 candidatosSelecionados++;
             } else {
-                System.out.println("O candidato não foi selecionado nesse momento.");
+                System.out.println("O(a) candidato(a) " + candidato.toUpperCase() + " não foi selecionado(a) nesse momento.");
             }
 
             candidatoAtual++;
+
+            System.out.println();
 
         }
     }
