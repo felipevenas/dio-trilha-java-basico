@@ -53,7 +53,7 @@ public class Main {
 
         System.out.println("========= Bem vindo ao eShop =========");
         System.out.println("O que você deseja fazer?");
-        System.out.println("1. Comprar protudos | 2. Acessar meu Marketplace | 3. Acessar perfil");
+        System.out.println("1. Comprar produtos | 2. Acessar meu Marketplace | 3. Acessar perfil");
             siglaPosLogin = scanner.nextInt();
 
         switch (siglaPosLogin) {
