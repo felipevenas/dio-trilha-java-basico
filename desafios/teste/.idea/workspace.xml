@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c5e9d78-324e-4eb7-aafa-0f3147fa1ee3" name="Changes" comment="Desafio de Controle de Fluxo concluído!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contador.java" afterDir="false" />
+    <list default="true" id="01c9e389-340e-46a7-a5d2-4c13658750c2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../desafio-controle-fluxo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../desafio-controle-fluxo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desafio-controle-fluxo/src/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../desafio-controle-fluxo/src/Contador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,63 +39,36 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2h0iKFgRTSkaTJWUK3rTpT83LlT" />
+  <component name="ProjectId" id="2h0msY2B633tTTJUBHfzEfImt8z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Contador.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.SimulacaoBancaria.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/felip/OneDrive/Documents/Programação/Repositórios - GitHub/dio-trilha-java-basico/desafios/desafio-controle-fluxo/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/felip/OneDrive/Documents/Programação/Repositórios - GitHub/dio-trilha-java-basico/desafios/teste/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="desafio-controle-fluxo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="desafio-controle-fluxo" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8c5e9d78-324e-4eb7-aafa-0f3147fa1ee3" name="Changes" comment="" />
-      <created>1716737329544</created>
+      <changelist id="01c9e389-340e-46a7-a5d2-4c13658750c2" name="Changes" comment="" />
+      <created>1716739576244</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716737329544</updated>
+      <updated>1716739576244</updated>
     </task>
-    <task id="LOCAL-00001" summary="Desafio de Controle de Fluxo concluído!">
-      <option name="closed" value="true" />
-      <created>1716741966656</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716741966656</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio de Controle de Fluxo concluído!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio de Controle de Fluxo concluído!" />
   </component>
 </project>
